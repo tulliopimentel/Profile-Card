@@ -1,0 +1,111 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(25,162,174);
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    position: relative;
+    box-shadow: 0px 2px 5px black;
+    border-radius: 5%;
+    height: 400px;
+    width: 350px;
+    background-color: white;
+}
+
+.info, div p {
+    align-content: center;
+    display: flex;
+    position: relative;
+    top: 150px;
+    justify-content:space-evenly;
+}
+
+.number {
+    display:flex;
+    font-weight: bold;
+    position: relative;
+    font-family:sans-serif;
+    top: 90px;
+    left: -33px;
+}
+
+.category {
+    display:flex;
+    position: relative;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    font-family:sans-serif;
+    top: 90px;
+    left: -33px;
+    font-size: 14px;
+}
+
+foot {
+    display: flex;
+    justify-content: center;
+}
+
+.victor2 {
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    top: 130px;
+    left: 37%;
+    border: 3px solid white;
+
+}
+
+.fundo {  
+    position: absolute;
+    border-radius: 5% 5% 0% 0%;
+    width: 350px;
+    height: 45%
+}
+
+.topbackground {
+    position: absolute;
+    display: flex;
+    left: -330px;
+    top: -500px;    
+}
+
+.bottombackground {
+    position: absolute;
+    display: flex;
+    right: -330px;
+    bottom: -630px;
+}
+
+.name {
+    display: flex;
+    position: absolute;
+    
+}
+
+.age {
+    display: flex;
+    position: relative;
+    top: -147px;
+    right: -195px;
+}
+
+.city {
+    display: flex;
+    position: absolute;
+    bottom: -13px;
+}
